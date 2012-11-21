@@ -1,5 +1,3 @@
-
-
 ja:
   errors:
     messages:
@@ -8,8 +6,13 @@ ja:
       already_confirmed: "は既に登録済みです。"
       not_locked: "はログイン可能です。"
       not_saved:
-        one: "1 error prohibited this %{resource} from being saved:"
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: "エラーが発生しました。"
+        other: "%{count}個のエラーが発生しました。"
+      invalid: "は不正な値です。"
+      blank: "を入力してください。"
+      confirmation: "と確認の入力が一致しません。"
+      empty: "を入力してください。"
+      taken: "はすでに存在します。"
 
   devise:
     failure:
@@ -56,3 +59,10 @@ ja:
         subject: 'パスワード再設定手続きのご案内'
       unlock_instructions:
         subject: 'アカウント凍結解除手続きのご案内'
+  activerecord:
+    attributes:
+      user:
+        email: "メールアドレス"
+        password: "パスワード"
+        password_confirmation: "パスワード（再入力）"
+        current_password: "現在のパスワード"
