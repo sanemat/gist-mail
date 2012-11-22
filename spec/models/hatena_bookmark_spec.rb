@@ -3,6 +3,8 @@ require 'spec_helper'
 
 describe HatenaBookmark do
   before do
+    time_now = Time.local(2012, 11, 21, 12, 0, 0)
+    Time.stub(:now).and_return time_now
     @hatena = HatenaBookmark.new
   end
 
