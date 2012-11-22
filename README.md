@@ -36,3 +36,5 @@
 チケットはこちら:
 
 https://www.pivotaltracker.com/projects/692015
+
+[![Build Status](https://api.travis-ci.org/sanemat/gist-mail.png?branch=master)](https://travis-ci.org/sanemat/gist-mail)
