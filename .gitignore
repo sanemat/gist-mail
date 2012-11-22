@@ -16,3 +16,4 @@
 
 # Ignore foreman config.
 .env
+.env_*
