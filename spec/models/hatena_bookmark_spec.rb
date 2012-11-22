@@ -13,4 +13,10 @@ describe HatenaBookmark do
       @hatena.get_today_gist.should == []
     end
   end
+
+  describe "#save_today_gist" do
+    it "Gistsのレコードが増えること" do
+      Proc.new { @hatena.save_today_gist }.should change(Gist, :count).by(10)
+    end
+  end
 end
