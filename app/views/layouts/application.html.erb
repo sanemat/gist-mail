@@ -8,10 +8,14 @@
 </head>
 <body>
   <div id="link">
-  <%= link_to '新規登録', new_user_registration_path %>
-  <%= link_to 'ログイン', user_session_path %>
-  <%= link_to 'ユーザ情報編集', edit_user_registration_path %>
-  <%= link_to 'パスワードの再発行', new_user_password_path %>
+  <% if user_signed_in? %>
+    <%= link_to 'ログアウト', destroy_user_session_path, :method => :delete %>
+    <%= link_to 'ユーザ情報編集', edit_user_registration_path %>
+  <% else %>
+    <%= link_to '新規登録', new_user_registration_path %>
+    <%= link_to 'ログイン', user_session_path %>
+    <%= link_to 'パスワードの再発行', new_user_password_path %>
+  <% end %>
   <%= link_to 'トップ画面', root_path %>
   </div>
   <div id="contents">
