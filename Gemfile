@@ -20,6 +20,14 @@ group :development, :test do
   gem 'heroku-dev-env'
 end
 
+group :development do
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'pry-nav'
+  gem 'pry-doc'
+  gem 'debugger'
+end
+
 group :production do
   gem 'pg'
 end
