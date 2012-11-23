@@ -1,3 +1,4 @@
+#coding: utf-8
 require 'spec_helper'
 
 describe "gists/index" do
@@ -16,7 +17,8 @@ describe "gists/index" do
     ])
   end
 
-  it "renders a list of gists" do
+  it "はGistを一覧表示すること" do
+    @new_gist = Gist.new
     render
     # Run the generator again with the --webrat flag if you want to use webrat matchers
     assert_select "tr>td", :text => "Name".to_s, :count => 2
