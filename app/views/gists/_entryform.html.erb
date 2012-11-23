@@ -1,12 +1,11 @@
 <%= form_for(@new_gist) do |f| %>
-<table>
-  <tr>
-    <td><%= f.text_field :name %></td>
-    <td><%= f.text_field :url %></td>
-    <td><%= f.number_field :count %></td>
-    <td></td>
-    <td><%= f.submit %></td>
-    <td></td>
-  </tr>
-</table>
+<dl>
+  <dt><%= f.label :name %></dt>
+  <dd><%= f.text_field :name %></dt>
+  <dt><%= f.label :url %></dt>
+  <dd><%= f.text_field :url, {:value => 'https://gist.github.com/'} %></dd>
+  <dt><%= f.label 'point' %></dt>
+  <dd><%= f.number_field :count %></dd>
+  <p><%= f.submit %></p>
+</dl>
 <% end %>
