@@ -11,7 +11,7 @@ feature "Gist" do
     fill_in 'Name', with: gist.name
     fill_in 'Url', with: gist.url
     fill_in 'Point', with: gist.count
-    click_button 'Create Gist'
+    click_button 'Gistを追加'
 
     # 投稿完了
     click_link 'Back'
