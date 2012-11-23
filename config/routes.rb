@@ -1,7 +1,7 @@
 GistMail::Application.routes.draw do
   resources :gists
 
-  root :to => 'welcome#index'
+  root :to => 'gists#index'
 
   devise_for :users
 
