@@ -1,10 +1,24 @@
 <h1>Listing gists</h1>
-<% @gists.each do |gist| %>
-  <dl>
-    <dt><%= link_to "#{gist.name}", "#{gist.url}" %> (<%= gist.count %>)</dt>
-    <dd><%= link_to 'Edit', edit_gist_path(gist) %></dd>
-  </dl>
-<% end %>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Gist</th>
+      <th>Good</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @gists.each do |gist| %>
+    <tr>
+      <td><%= link_to "#{gist.name}", "#{gist.url}" %></td>
+      <td><%= gist.count %></td>
+      <td>
+        <%= link_to 'Edit', edit_gist_path(gist) %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+<table>
 
 <br />
 
