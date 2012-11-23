@@ -31,6 +31,10 @@ group :development do
   gem 'letter_opener', github: 'ryanb/letter_opener'
 end
 
+group :test do
+  gem 'timecop'
+end
+
 group :production do
   gem 'pg'
 end
