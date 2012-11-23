@@ -2,7 +2,7 @@ class GistsController < ApplicationController
   # GET /gists
   # GET /gists.json
   def index
-    @gists = Gist.all
+    @gists = Gist.find(:all, :order => "count DESC")
     @new_gist = Gist.new
 
     respond_to do |format|

@@ -1,11 +1,13 @@
-<%= form_for(@new_gist) do |f| %>
-<dl>
-  <dt><%= f.label :name %></dt>
-  <dd><%= f.text_field :name %></dt>
-  <dt><%= f.label :url %></dt>
-  <dd><%= f.text_field :url, {:value => 'https://gist.github.com/'} %></dd>
-  <dt><%= f.label :count, 'Point' %></dt>
-  <dd><%= f.number_field :count %></dd>
-  <p><%= f.submit 'Gistを追加', :class => 'btn btn-info' %></p>
-</dl>
-<% end %>
+<div class="bs-docs-sidebar affix add-gist">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+        <%= form_for(@new_gist, :html => {:class => "navbar-form pull-left"}) do |f| %>
+          <%= f.text_field :name, {:class => "span2", :placeholder => 'short name'} %>
+          <%= f.text_field :url, {:class => "span4", :placeholder => 'https://gist.github.com/'} %>
+          <%= f.submit 'Gistを追加', :class => 'btn btn-info' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
