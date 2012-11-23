@@ -19,12 +19,12 @@ class HatenaBookmark
     uri = URI.parse(Settings.hatena_rss_url)
     doc = uri.open {|rss| REXML::Document.new(rss)}
     doc.root.elements.each("item") do |item|
-      dc_date = Time.parse(item.elements["dc:date"].text)
+      dc_date = Time.zone.parse(item.elements["dc:date"].text)
       gist.push([
         item.elements["title"].text,
         item.attributes["about"],
         item.elements["hatena:bookmarkcount"].text
-      ]) if dc_date.in_time_zone("Asia/Tokyo").today?
+      ]) if dc_date.today?
     end
     gist
   end
