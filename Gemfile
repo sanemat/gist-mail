@@ -8,6 +8,7 @@ gem 'rails', '3.2.9'
 
 gem 'devise'
 gem 'thin'
+gem 'rails_config'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -27,6 +28,11 @@ group :development do
   gem 'pry-doc'
   gem 'debugger'
   gem 'letter_opener', github: 'ryanb/letter_opener'
+end
+
+group :test do
+  gem 'webmock'
+  gem 'timecop'
 end
 
 group :production do
