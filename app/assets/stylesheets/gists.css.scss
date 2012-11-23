@@ -1,3 +1,11 @@
 // Place all the styles related to the gists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.add-gist {
+  position: fixed;
+  bottom: 5px;
+  div div {
+     background-image: -webkit-linear-gradient(top,white,#B5E4F7);
+  }
+}
