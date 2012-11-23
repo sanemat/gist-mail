@@ -5,21 +5,37 @@
   <link href="/assets/bootstrap.min.css" rel="stylesheet">
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+<style type="text/css">
+<!--
+#contents {
+  padding-top: 70pt;
+}
+-->
+</style>
 </head>
 <body>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <h1>Gistar</h1>
+      </div>
+    </div>
+  </div>
   <div id="contents" class="container">
     <div class="row">
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix">
-          <% if user_signed_in? %>
-            <li><%= link_to 'ログアウト', destroy_user_session_path, :method => :delete %></li>
-            <li><%= link_to 'ユーザ情報編集', edit_user_registration_path %></li>
-          <% else %>
-            <li><%= link_to '新規登録', new_user_registration_path %></li>
-            <li><%= link_to 'ログイン', user_session_path %></li>
-            <li><%= link_to 'パスワードの再発行', new_user_password_path %></li>
-          <% end %>
-          <li><%= link_to 'トップ画面', root_path %></li>
+          <div class="thumbnail">
+            <% if user_signed_in? %>
+              <li><%= link_to 'ログアウト', destroy_user_session_path, :method => :delete %></li>
+              <li><%= link_to 'ユーザ情報編集', edit_user_registration_path %></li>
+            <% else %>
+              <li><%= link_to '新規登録', new_user_registration_path %></li>
+              <li><%= link_to 'ログイン', user_session_path %></li>
+              <li><%= link_to 'パスワードの再発行', new_user_password_path %></li>
+            <% end %>
+            <li><%= link_to 'トップ画面', root_path %></li>
+          </div>
         </ul>
       </div>
       <div class="span9">
