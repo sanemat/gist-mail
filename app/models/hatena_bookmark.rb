@@ -24,7 +24,7 @@ class HatenaBookmark
         item.elements["title"].text,
         item.attributes["about"],
         item.elements["hatena:bookmarkcount"].text
-      ]) if dc_date.today?
+      ]) if dc_date.in_time_zone("Asia/Tokyo").today?
     end
     gist
   end
