@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:hatena="http://www.hatena.ne.jp/info/xmlns#"
+ xmlns:media="http://search.yahoo.com/mrss"
+>
+  <channel rdf:about="http://b.hatena.ne.jp/entrylist?sort=eid&amp;url=http%3A%2F%2Fgist.github.com">
+    <title>はてなブックマーク - 新着エントリー - 『Gist — GitHub』</title>
+    <link>http://b.hatena.ne.jp/entrylist?sort=eid&amp;url=http%3A%2F%2Fgist.github.com</link>
+    <description>『Gist — GitHub』 の新着エントリー</description>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="https://gist.github.com/a2fd1da997f457b76efe" />
+        <rdf:li rdf:resource="https://gist.github.com/4130821" />
+        <rdf:li rdf:resource="https://gist.github.com/1318300" />
+        <rdf:li rdf:resource="https://gist.github.com/130ee4ad0706c5fe4e67" />
+        <rdf:li rdf:resource="https://gist.github.com/854709" />
+        <rdf:li rdf:resource="https://gist.github.com/4129717" />
+        <rdf:li rdf:resource="https://gist.github.com/639783" />
+        <rdf:li rdf:resource="https://gist.github.com/4129439" />
+        <rdf:li rdf:resource="https://gist.github.com/1426161" />
+        <rdf:li rdf:resource="https://gist.github.com/1315384" />
+        <rdf:li rdf:resource="https://gist.github.com/822455" />
+        <rdf:li rdf:resource="https://gist.github.com/4025104" />
+        <rdf:li rdf:resource="https://gist.github.com/4128665" />
+        <rdf:li rdf:resource="https://gist.github.com/3962614/5cbd2ed3c59ab9999af514ce6f2c6822509a2bb9" />
+        <rdf:li rdf:resource="https://gist.github.com/4126092" />
+        <rdf:li rdf:resource="https://gist.github.com/982883" />
+        <rdf:li rdf:resource="https://gist.github.com/1127000" />
+        <rdf:li rdf:resource="https://gist.github.com/4117181" />
+        <rdf:li rdf:resource="https://gist.github.com/4122938" />
+        <rdf:li rdf:resource="https://gist.github.com/1423262" />
+        <rdf:li rdf:resource="https://gist.github.com/4122913" />
+        <rdf:li rdf:resource="https://gist.github.com/4122754" />
+        <rdf:li rdf:resource="https://gist.github.com/4122543" />
+        <rdf:li rdf:resource="https://gist.github.com/4122516" />
+        <rdf:li rdf:resource="https://gist.github.com/4116565" />
+        <rdf:li rdf:resource="https://gist.github.com/4116843" />
+        <rdf:li rdf:resource="https://gist.github.com/4117017" />
+        <rdf:li rdf:resource="https://gist.github.com/4117588" />
+        <rdf:li rdf:resource="https://gist.github.com/1446456" />
+        <rdf:li rdf:resource="https://gist.github.com/291329" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="https://gist.github.com/a2fd1da997f457b76efe">
+    <title>A BETTER JAVASCRIPT OBJECT APPROACH — Gist</title>
+    <link>https://gist.github.com/a2fd1da997f457b76efe</link>
+    <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/a2fd1da997f457b76efe&quot; title=&quot;A BETTER JAVASCRIPT OBJECT APPROACH — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/a2fd1da997f457b76efe&quot;&gt;A BETTER JAVASCRIPT OBJECT APPROACH — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/a2fd1da997f457b76efe&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/a2fd1da997f457b76efe&quot; alt=&quot;はてなブックマーク - A BETTER JAVASCRIPT OBJECT APPROACH — Gist&quot; title=&quot;はてなブックマーク - A BETTER JAVASCRIPT OBJECT APPROACH — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/a2fd1da997f457b76efe&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-23T09:19:18+09:00</dc:date>
+    <dc:subject>おもしろ</dc:subject>
+    <hatena:bookmarkcount>2</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4130821">
+    <title>64bit Windows7 で node.js をビルドする。 — Gist</title>
+    <link>https://gist.github.com/4130821</link>
+    <description>前提条件 Windows7 64bit node-gypが動作する状態である事 Python2.7 系インストール済み Visual Studio 2010 Express インストール済み Windows SDK 7.1 インストール済み Windows SDK 7.0A がインストール済みである つまり、ローカル環境において、WindowsSDK 7.1 と Windows SDK 7.0A ...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4130821&quot; title=&quot;64bit Windows7 で node.js をビルドする。 — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4130821&quot;&gt;64bit Windows7 で node.js をビルドする。 — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;前提条件 Windows7 64bit node-gypが動作する状態である事 Python2.7 系インストール済み Visual Studio 2010 Express インストール済み Windows SDK 7.1 インストール済み Windows SDK 7.0A がインストール済みである つまり、ローカル環境において、WindowsSDK 7.1 と Windows SDK 7.0A ...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4130821&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4130821&quot; alt=&quot;はてなブックマーク - 64bit Windows7 で node.js をビルドする。 — Gist&quot; title=&quot;はてなブックマーク - 64bit Windows7 で node.js をビルドする。 — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4130821&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T23:50:56+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/1318300">
+    <title>Patch that disables Subsonic license checking and validation — Gist</title>
+    <link>https://gist.github.com/1318300</link>
+    <description>Update: Go to this repository to find a maintained fork of Subsonic without the licensing. This other repository is another fork and has more followers. A patch to disable the licensing functionality ...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/1318300&quot; title=&quot;Patch that disables Subsonic license checking and validation — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/1318300&quot;&gt;Patch that disables Subsonic license checking and validation — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Update: Go to this repository to find a maintained fork of Subsonic without the licensing. This other repository is another fork and has more followers. A patch to disable the licensing functionality ...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/1318300&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/1318300&quot; alt=&quot;はてなブックマーク - Patch that disables Subsonic license checking and validation — Gist&quot; title=&quot;はてなブックマーク - Patch that disables Subsonic license checking and validation — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/1318300&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T23:21:45+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/130ee4ad0706c5fe4e67">
+    <title>ZKで聞きたいことまとめ — Gist</title>
+    <link>https://gist.github.com/130ee4ad0706c5fe4e67</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/130ee4ad0706c5fe4e67&quot; title=&quot;ZKで聞きたいことまとめ — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/130ee4ad0706c5fe4e67&quot;&gt;ZKで聞きたいことまとめ — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/130ee4ad0706c5fe4e67&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/130ee4ad0706c5fe4e67&quot; alt=&quot;はてなブックマーク - ZKで聞きたいことまとめ — Gist&quot; title=&quot;はてなブックマーク - ZKで聞きたいことまとめ — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/130ee4ad0706c5fe4e67&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T16:44:13+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/854709">
+    <title>Tonnetz on a torus in POV-Ray — Gist</title>
+    <link>https://gist.github.com/854709</link>
+    <description>Revisions d1fd91 endolith June 20, 2012 01bc4c endolith March 08, 2012 63a638 endolith March 04, 2011 13b548 endolith March 04, 2011 Private Gist All pages are served over SSL and all pushing and pull...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/854709&quot; title=&quot;Tonnetz on a torus in POV-Ray — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/854709&quot;&gt;Tonnetz on a torus in POV-Ray — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Revisions d1fd91 endolith June 20, 2012 01bc4c endolith March 08, 2012 63a638 endolith March 04, 2011 13b548 endolith March 04, 2011 Private Gist All pages are served over SSL and all pushing and pull...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/854709&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/854709&quot; alt=&quot;はてなブックマーク - Tonnetz on a torus in POV-Ray — Gist&quot; title=&quot;はてなブックマーク - Tonnetz on a torus in POV-Ray — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/854709&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T15:53:34+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4129717">
+    <title>NICOSパスワード8文字切り詰め制限祭りまとめ — Gist</title>
+    <link>https://gist.github.com/4129717</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4129717&quot; title=&quot;NICOSパスワード8文字切り詰め制限祭りまとめ — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4129717&quot;&gt;NICOSパスワード8文字切り詰め制限祭りまとめ — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4129717&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4129717&quot; alt=&quot;はてなブックマーク - NICOSパスワード8文字切り詰め制限祭りまとめ — Gist&quot; title=&quot;はてなブックマーク - NICOSパスワード8文字切り詰め制限祭りまとめ — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4129717&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T15:50:14+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>55</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/639783">
+    <title>edvakf's gist: 639783 — Gist</title>
+    <link>https://gist.github.com/639783</link>
+    <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/639783&quot; title=&quot;edvakf's gist: 639783 — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/639783&quot;&gt;edvakf's gist: 639783 — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/639783&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/639783&quot; alt=&quot;はてなブックマーク - edvakf's gist: 639783 — Gist&quot; title=&quot;はてなブックマーク - edvakf's gist: 639783 — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/639783&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T15:31:32+09:00</dc:date>
+    <dc:subject>おもしろ</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4129439">
+    <title>add ainote — Gist</title>
+    <link>https://gist.github.com/4129439</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4129439&quot; title=&quot;add ainote — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4129439&quot;&gt;add ainote — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4129439&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4129439&quot; alt=&quot;はてなブックマーク - add ainote — Gist&quot; title=&quot;はてなブックマーク - add ainote — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4129439&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T14:56:25+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/1426161">
+    <title>Simple, scrappy TCP DNS server in Ruby (with protocol annotations) — Gist</title>
+    <link>https://gist.github.com/1426161</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/1426161&quot; title=&quot;Simple, scrappy TCP DNS server in Ruby (with protocol annotations) — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/1426161&quot;&gt;Simple, scrappy TCP DNS server in Ruby (with protocol annotations) — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/1426161&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/1426161&quot; alt=&quot;はてなブックマーク - Simple, scrappy TCP DNS server in Ruby (with protocol annotations) — Gist&quot; title=&quot;はてなブックマーク - Simple, scrappy TCP DNS server in Ruby (with protocol annotations) — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/1426161&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T14:29:44+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/1315384">
+    <title>Simple, yet effective CSRF class for FuelPHP. — Gist</title>
+    <link>https://gist.github.com/1315384</link>
+    <description>Revisions f61af5 dhorrigan October 23, 2011 69493d dhorrigan October 23, 2011 793246 dhorrigan October 23, 2011 9f0d36 dhorrigan October 23, 2011 ab172f dhorrigan October 23, 2011 7d36f5 dhorrigan Oct...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/1315384&quot; title=&quot;Simple, yet effective CSRF class for FuelPHP. — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/1315384&quot;&gt;Simple, yet effective CSRF class for FuelPHP. — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Revisions f61af5 dhorrigan October 23, 2011 69493d dhorrigan October 23, 2011 793246 dhorrigan October 23, 2011 9f0d36 dhorrigan October 23, 2011 ab172f dhorrigan October 23, 2011 7d36f5 dhorrigan Oct...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/1315384&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/1315384&quot; alt=&quot;はてなブックマーク - Simple, yet effective CSRF class for FuelPHP. — Gist&quot; title=&quot;はてなブックマーク - Simple, yet effective CSRF class for FuelPHP. — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/1315384&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T14:19:50+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>3</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/822455">
+    <title>Like tmpfs in Mac OSX — Gist</title>
+    <link>https://gist.github.com/822455</link>
+    <description>Forks gist: 1208993 by schmurfy Like tmpfs in Mac OSX created September 10, 2011 gist: 1223962 by zafi Like tmpfs in Mac OSX created September 17, 2011 gist: 1248600 by tomasmu... Like tmpfs in Mac OS...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/822455&quot; title=&quot;Like tmpfs in Mac OSX — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/822455&quot;&gt;Like tmpfs in Mac OSX — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Forks gist: 1208993 by schmurfy Like tmpfs in Mac OSX created September 10, 2011 gist: 1223962 by zafi Like tmpfs in Mac OSX created September 17, 2011 gist: 1248600 by tomasmu... Like tmpfs in Mac OS...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/822455&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/822455&quot; alt=&quot;はてなブックマーク - Like tmpfs in Mac OSX — Gist&quot; title=&quot;はてなブックマーク - Like tmpfs in Mac OSX — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/822455&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T11:16:44+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4025104">
+    <title>IE10 hack — Gist</title>
+    <link>https://gist.github.com/4025104</link>
+    <description>Forks gist: 4077654 by macpank... IE10 hack created November 15, 2012 gist: 4084193 by Liner-z IE10 hack created November 15, 2012 gist: 4090615 by Ceane IE10 hack created November 16, 2012 Private Gi...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4025104&quot; title=&quot;IE10 hack — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4025104&quot;&gt;IE10 hack — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Forks gist: 4077654 by macpank... IE10 hack created November 15, 2012 gist: 4084193 by Liner-z IE10 hack created November 15, 2012 gist: 4090615 by Ceane IE10 hack created November 16, 2012 Private Gi...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4025104&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4025104&quot; alt=&quot;はてなブックマーク - IE10 hack — Gist&quot; title=&quot;はてなブックマーク - IE10 hack — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4025104&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T09:23:19+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4128665">
+    <title>pokutuna's gist: 4128665 — Gist</title>
+    <link>https://gist.github.com/4128665</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4128665&quot; title=&quot;pokutuna's gist: 4128665 — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4128665&quot;&gt;pokutuna's gist: 4128665 — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4128665&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4128665&quot; alt=&quot;はてなブックマーク - pokutuna's gist: 4128665 — Gist&quot; title=&quot;はてなブックマーク - pokutuna's gist: 4128665 — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4128665&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T09:18:50+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/3962614/5cbd2ed3c59ab9999af514ce6f2c6822509a2bb9">
+    <title>ブートセクタで64bitOS — Gist</title>
+    <link>https://gist.github.com/3962614/5cbd2ed3c59ab9999af514ce6f2c6822509a2bb9</link>
+    <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/3962614/5cbd2ed3c59ab9999af514ce6f2c6822509a2bb9&quot; title=&quot;ブートセクタで64bitOS — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/3962614/5cbd2ed3c59ab9999af514ce6f2c6822509a2bb9&quot;&gt;ブートセクタで64bitOS — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/3962614/5cbd2ed3c59ab9999af514ce6f2c6822509a2bb9&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/3962614/5cbd2ed3c59ab9999af514ce6f2c6822509a2bb9&quot; alt=&quot;はてなブックマーク - ブートセクタで64bitOS — Gist&quot; title=&quot;はてなブックマーク - ブートセクタで64bitOS — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/3962614/5cbd2ed3c59ab9999af514ce6f2c6822509a2bb9&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T04:42:43+09:00</dc:date>
+    <dc:subject>おもしろ</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4126092">
+    <title>rebaseはコミットグラフを綺麗にするためじゃなくてffマージをするためにあるのであった — Gist</title>
+    <link>https://gist.github.com/4126092</link>
+    <description>ということで、ffマージはなぜ優れているかというと、マージ操作の際に機械的な構成変更が一切行われず、ブランチの移動が起こるのみなので、マージ後のブランチは、 必ず あなたが入念にテストしただろうマージしたブランチと全く同じ構成であることが保証されるわけである。これが大きい。 衝突検知をくぐり抜けて機械的マージが構成を壊してしまう例は他をご参照いただくとして、no-ffマージの場合にそういう面倒に対...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4126092&quot; title=&quot;rebaseはコミットグラフを綺麗にするためじゃなくてffマージをするためにあるのであった — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4126092&quot;&gt;rebaseはコミットグラフを綺麗にするためじゃなくてffマージをするためにあるのであった — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;ということで、ffマージはなぜ優れているかというと、マージ操作の際に機械的な構成変更が一切行われず、ブランチの移動が起こるのみなので、マージ後のブランチは、 必ず あなたが入念にテストしただろうマージしたブランチと全く同じ構成であることが保証されるわけである。これが大きい。 衝突検知をくぐり抜けて機械的マージが構成を壊してしまう例は他をご参照いただくとして、no-ffマージの場合にそういう面倒に対...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4126092&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4126092&quot; alt=&quot;はてなブックマーク - rebaseはコミットグラフを綺麗にするためじゃなくてffマージをするためにあるのであった — Gist&quot; title=&quot;はてなブックマーク - rebaseはコミットグラフを綺麗にするためじゃなくてffマージをするためにあるのであった — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4126092&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-22T02:10:30+09:00</dc:date>
+    <dc:subject>生活・人生</dc:subject>
+    <hatena:bookmarkcount>24</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/982883">
+    <title>generate random UUIDs — Gist</title>
+    <link>https://gist.github.com/982883</link>
+    <description>Forks gist: 983594 by Rixius generate random UUIDs created May 20, 2011 gist: 997086 by olamedia generate random UUIDs created May 28, 2011 gist: 1270605 by useware generate random UUIDs created Octob...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/982883&quot; title=&quot;generate random UUIDs — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/982883&quot;&gt;generate random UUIDs — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Forks gist: 983594 by Rixius generate random UUIDs created May 20, 2011 gist: 997086 by olamedia generate random UUIDs created May 28, 2011 gist: 1270605 by useware generate random UUIDs created Octob...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/982883&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/982883&quot; alt=&quot;はてなブックマーク - generate random UUIDs — Gist&quot; title=&quot;はてなブックマーク - generate random UUIDs — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/982883&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T23:18:45+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/1127000">
+    <title>指定連番画像を読み込んで縦長に並べるphotoshop 用 js — Gist</title>
+    <link>https://gist.github.com/1127000</link>
+    <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/1127000&quot; title=&quot;指定連番画像を読み込んで縦長に並べるphotoshop 用 js — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/1127000&quot;&gt;指定連番画像を読み込んで縦長に並べるphotoshop 用 js — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/1127000&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/1127000&quot; alt=&quot;はてなブックマーク - 指定連番画像を読み込んで縦長に並べるphotoshop 用 js — Gist&quot; title=&quot;はてなブックマーク - 指定連番画像を読み込んで縦長に並べるphotoshop 用 js — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/1127000&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T17:05:54+09:00</dc:date>
+    <dc:subject>おもしろ</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4117181">
+    <title>Fizz Buzz using Enumerator in Ruby — Gist</title>
+    <link>https://gist.github.com/4117181</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4117181&quot; title=&quot;Fizz Buzz using Enumerator in Ruby — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4117181&quot;&gt;Fizz Buzz using Enumerator in Ruby — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4117181&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4117181&quot; alt=&quot;はてなブックマーク - Fizz Buzz using Enumerator in Ruby — Gist&quot; title=&quot;はてなブックマーク - Fizz Buzz using Enumerator in Ruby — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4117181&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T17:02:56+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4122938">
+    <title>多重起動禁止処理 for Windows — Gist</title>
+    <link>https://gist.github.com/4122938</link>
+    <description>Revisions 948a3e Anonymous November 20, 2012 887fa0 Anonymous November 20, 2012 22632b Anonymous November 20, 2012 ad0da1 Anonymous November 20, 2012 Private Gist All pages are served over SSL and all...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4122938&quot; title=&quot;多重起動禁止処理 for Windows — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4122938&quot;&gt;多重起動禁止処理 for Windows — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Revisions 948a3e Anonymous November 20, 2012 887fa0 Anonymous November 20, 2012 22632b Anonymous November 20, 2012 ad0da1 Anonymous November 20, 2012 Private Gist All pages are served over SSL and all...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4122938&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4122938&quot; alt=&quot;はてなブックマーク - 多重起動禁止処理 for Windows — Gist&quot; title=&quot;はてなブックマーク - 多重起動禁止処理 for Windows — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4122938&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T14:11:51+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/1423262">
+    <title>sl コマンドに京急AAを追加するパッチです — Gist</title>
+    <link>https://gist.github.com/1423262</link>
+    <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/1423262&quot; title=&quot;sl コマンドに京急AAを追加するパッチです — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/1423262&quot;&gt;sl コマンドに京急AAを追加するパッチです — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/1423262&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/1423262&quot; alt=&quot;はてなブックマーク - sl コマンドに京急AAを追加するパッチです — Gist&quot; title=&quot;はてなブックマーク - sl コマンドに京急AAを追加するパッチです — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/1423262&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T13:54:58+09:00</dc:date>
+    <dc:subject>スポーツ・芸能・音楽</dc:subject>
+    <hatena:bookmarkcount>2</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4122913">
+    <title>Developer Display Requirements https://dev.twitter.com/terms/display-requirements — Gist</title>
+    <link>https://gist.github.com/4122913</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4122913&quot; title=&quot;Developer Display Requirements https://dev.twitter.com/terms/display-requirements — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4122913&quot;&gt;Developer Display Requirements https://dev.twitter.com/terms/display-requirements — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4122913&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4122913&quot; alt=&quot;はてなブックマーク - Developer Display Requirements https://dev.twitter.com/terms/display-requirements — Gist&quot; title=&quot;はてなブックマーク - Developer Display Requirements https://dev.twitter.com/terms/display-requirements — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4122913&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T12:57:36+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4122754">
+    <title>The &quot;queue_stats()&quot; function, introduced in Q4M 0.9.7 — Gist</title>
+    <link>https://gist.github.com/4122754</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4122754&quot; title=&quot;The &amp;quot;queue_stats()&amp;quot; function, introduced in Q4M 0.9.7 — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4122754&quot;&gt;The &amp;quot;queue_stats()&amp;quot; function, introduced in Q4M 0.9.7 — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4122754&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4122754&quot; alt=&quot;はてなブックマーク - The &amp;quot;queue_stats()&amp;quot; function, introduced in Q4M 0.9.7 — Gist&quot; title=&quot;はてなブックマーク - The &amp;quot;queue_stats()&amp;quot; function, introduced in Q4M 0.9.7 — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4122754&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T12:15:05+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>5</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4122543">
+    <title>RubyMotion でシンプルな CoreData のマイグレーションを行うコード — Gist</title>
+    <link>https://gist.github.com/4122543</link>
+    <description>Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4122543&quot; title=&quot;RubyMotion でシンプルな CoreData のマイグレーションを行うコード — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4122543&quot;&gt;RubyMotion でシンプルな CoreData のマイグレーションを行うコード — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Private Gist All pages are served over SSL and all pushing and pulling is done over SSH. No one may fork, clone, or view it unless they are given this private URL. Every gist with this icon () is priv...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4122543&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4122543&quot; alt=&quot;はてなブックマーク - RubyMotion でシンプルな CoreData のマイグレーションを行うコード — Gist&quot; title=&quot;はてなブックマーク - RubyMotion でシンプルな CoreData のマイグレーションを行うコード — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4122543&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T10:51:56+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4122516">
+    <title>天下一gitconfig大会 — Gist</title>
+    <link>https://gist.github.com/4122516</link>
+    <description>ぎっとぎとにしてやんよ GistDeck gistでmarkdown書いたらbookmarkletでプレゼンになるよ。 ↓これをBookmarkに登録してこのページで実行してみよー！ javascript:(function()%7Bvar%20s%3Ddocument.createElement(%27script%27)%3Bs.setAttribute(%27src%27,%27https:...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4122516&quot; title=&quot;天下一gitconfig大会 — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4122516&quot;&gt;天下一gitconfig大会 — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com/4122516&quot;&gt;&lt;img src=&quot;http://cdn-ak.b.st-hatena.com/entryimage/120869186-1353461869.jpg&quot; alt=&quot;天下一gitconfig大会 — Gist&quot; title=&quot;天下一gitconfig大会 — Gist&quot; class=&quot;entry-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;ぎっとぎとにしてやんよ GistDeck gistでmarkdown書いたらbookmarkletでプレゼンになるよ。 ↓これをBookmarkに登録してこのページで実行してみよー！ javascript:(function()%7Bvar%20s%3Ddocument.createElement(%27script%27)%3Bs.setAttribute(%27src%27,%27https:...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4122516&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4122516&quot; alt=&quot;はてなブックマーク - 天下一gitconfig大会 — Gist&quot; title=&quot;はてなブックマーク - 天下一gitconfig大会 — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4122516&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T10:37:13+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4116565">
+    <title>Bookmarklet to show Paul Graham's essay footnotes inline on hover — Gist</title>
+    <link>https://gist.github.com/4116565</link>
+    <description>javascript:(function(e,t,n,r,i,s,o,u){if(!(i=e.jQuery)||n&gt;i.fn.jquery||r(i)){s=t.createElement(&quot;script&quot;);s.type=&quot;text/javascript&quot;;s.src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/&quot;+n+&quot;/jquery.min.js...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4116565&quot; title=&quot;Bookmarklet to show Paul Graham's essay footnotes inline on hover — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4116565&quot;&gt;Bookmarklet to show Paul Graham's essay footnotes inline on hover — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;javascript:(function(e,t,n,r,i,s,o,u){if(!(i=e.jQuery)||n&amp;gt;i.fn.jquery||r(i)){s=t.createElement(&amp;quot;script&amp;quot;);s.type=&amp;quot;text/javascript&amp;quot;;s.src=&amp;quot;http://ajax.googleapis.com/ajax/libs/jquery/&amp;quot;+n+&amp;quot;/jquery.min.js...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4116565&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4116565&quot; alt=&quot;はてなブックマーク - Bookmarklet to show Paul Graham's essay footnotes inline on hover — Gist&quot; title=&quot;はてなブックマーク - Bookmarklet to show Paul Graham's essay footnotes inline on hover — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4116565&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-21T04:17:14+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4116843">
+    <title>君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) — Gist</title>
+    <link>https://gist.github.com/4116843</link>
+    <description>君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) はじめに 2012/11/17に開催されたAVTokyo2012の中で「目grepリローデッド」という題目で murachue氏、ucq氏が目grep力を競うイベントが行われた。 その際に愛甲氏によって出題された問題が以下のURLで公開されている。 http://twitter.com/07c00/stat...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4116843&quot; title=&quot;君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4116843&quot;&gt;君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com/4116843&quot;&gt;&lt;img src=&quot;http://cdn-ak.b.st-hatena.com/entryimage/120813574-1353420255.jpg&quot; alt=&quot;君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) — Gist&quot; title=&quot;君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) — Gist&quot; class=&quot;entry-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) はじめに 2012/11/17に開催されたAVTokyo2012の中で「目grepリローデッド」という題目で murachue氏、ucq氏が目grep力を競うイベントが行われた。 その際に愛甲氏によって出題された問題が以下のURLで公開されている。 http://twitter.com/07c00/stat...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4116843&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4116843&quot; alt=&quot;はてなブックマーク - 君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) — Gist&quot; title=&quot;はてなブックマーク - 君にもできる目grepを使わない目grepリローデッドへの挑戦 (010 Editor編) — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4116843&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-20T23:03:40+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>2</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4117017">
+    <title>イベントのコミュニケーションデザインに役立ちそうなプラクティス集 — Gist</title>
+    <link>https://gist.github.com/4117017</link>
+    <description>Revisions 8909f8 june29 November 20, 2012 3c3b5b june29 November 20, 2012 15ed3d june29 November 20, 2012 19e220 june29 November 20, 2012 4ff7b9 june29 November 20, 2012 7f4cdf june29 November 20, 201...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4117017&quot; title=&quot;イベントのコミュニケーションデザインに役立ちそうなプラクティス集 — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4117017&quot;&gt;イベントのコミュニケーションデザインに役立ちそうなプラクティス集 — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Revisions 8909f8 june29 November 20, 2012 3c3b5b june29 November 20, 2012 15ed3d june29 November 20, 2012 19e220 june29 November 20, 2012 4ff7b9 june29 November 20, 2012 7f4cdf june29 November 20, 201...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4117017&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4117017&quot; alt=&quot;はてなブックマーク - イベントのコミュニケーションデザインに役立ちそうなプラクティス集 — Gist&quot; title=&quot;はてなブックマーク - イベントのコミュニケーションデザインに役立ちそうなプラクティス集 — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4117017&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-20T21:51:27+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/4117588">
+    <title>天下一gitconfig大会 — Gist</title>
+    <link>https://gist.github.com/4117588</link>
+    <description>ぎっとぎとにしてやんよ GistDeck gistでmarkdown書いたらbookmarkletでプレゼンになるよ。 ↓これをBookmarkに登録してこのページで実行してみよー！ javascript:(function()%7Bvar%20s%3Ddocument.createElement(%27script%27)%3Bs.setAttribute(%27src%27,%27https:...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/4117588&quot; title=&quot;天下一gitconfig大会 — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/4117588&quot;&gt;天下一gitconfig大会 — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com/4117588&quot;&gt;&lt;img src=&quot;http://cdn-ak.b.st-hatena.com/entryimage/120799690-1353413665.jpg&quot; alt=&quot;天下一gitconfig大会 — Gist&quot; title=&quot;天下一gitconfig大会 — Gist&quot; class=&quot;entry-image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;ぎっとぎとにしてやんよ GistDeck gistでmarkdown書いたらbookmarkletでプレゼンになるよ。 ↓これをBookmarkに登録してこのページで実行してみよー！ javascript:(function()%7Bvar%20s%3Ddocument.createElement(%27script%27)%3Bs.setAttribute(%27src%27,%27https:...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/4117588&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/4117588&quot; alt=&quot;はてなブックマーク - 天下一gitconfig大会 — Gist&quot; title=&quot;はてなブックマーク - 天下一gitconfig大会 — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/4117588&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-20T21:13:52+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>321</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/1446456">
+    <title>[keysnail]gpumnail — Gist</title>
+    <link>https://gist.github.com/1446456</link>
+    <description>1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/1446456&quot; title=&quot;[keysnail]gpumnail — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/1446456&quot;&gt;[keysnail]gpumnail — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/1446456&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/1446456&quot; alt=&quot;はてなブックマーク - [keysnail]gpumnail — Gist&quot; title=&quot;はてなブックマーク - [keysnail]gpumnail — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/1446456&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-20T14:51:25+09:00</dc:date>
+    <dc:subject>スポーツ・芸能・音楽</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="https://gist.github.com/291329">
+    <title>assaf's gist: 291329 — Gist</title>
+    <link>https://gist.github.com/291329</link>
+    <description>Forks gist: 303791 by ctrocha... created February 13, 2010 gist: 372835 by shinzui created April 20, 2010 gist: 375314 by spagalloco created April 22, 2010 gist: 1129946 by masterkain created August 0...</description>
+    <content:encoded>&lt;blockquote cite=&quot;https://gist.github.com/291329&quot; title=&quot;assaf's gist: 291329 — Gist&quot;&gt;&lt;cite&gt;&lt;img src=&quot;http://cdn-ak.favicon.st-hatena.com/?url=http%3A%2F%2Fgist.github.com%2F&quot; alt=&quot;&quot; /&gt; &lt;a href=&quot;https://gist.github.com/291329&quot;&gt;assaf's gist: 291329 — Gist&lt;/a&gt;&lt;/cite&gt;&lt;p&gt;Forks gist: 303791 by ctrocha... created February 13, 2010 gist: 372835 by shinzui created April 20, 2010 gist: 375314 by spagalloco created April 22, 2010 gist: 1129946 by masterkain created August 0...&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://b.hatena.ne.jp/entry/https://gist.github.com/291329&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/entry/image/https://gist.github.com/291329&quot; alt=&quot;はてなブックマーク - assaf's gist: 291329 — Gist&quot; title=&quot;はてなブックマーク - assaf's gist: 291329 — Gist&quot; border=&quot;0&quot; style=&quot;border: none&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://b.hatena.ne.jp/append?https://gist.github.com/291329&quot;&gt;&lt;img src=&quot;http://b.hatena.ne.jp/images/append.gif&quot; border=&quot;0&quot; alt=&quot;はてなブックマークに追加&quot; title=&quot;はてなブックマークに追加&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded>
+    <dc:date>2012-11-20T12:14:20+09:00</dc:date>
+    <dc:subject>コンピュータ・IT</dc:subject>
+    <hatena:bookmarkcount>1</hatena:bookmarkcount>
+  </item>
+</rdf:RDF>
