@@ -1,7 +1,7 @@
 namespace :gistar do
   namespace :mail do
     desc 'Mail popular gists'
-    task pupular: :environment do
+    task popular: :environment do
       User.find_each(batch_size: 100) do |user|
         StarMailer.popular(user).deliver
       end
