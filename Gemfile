@@ -26,6 +26,7 @@ group :development do
   gem 'pry-nav'
   gem 'pry-doc'
   gem 'debugger'
+  gem 'letter_opener', github: 'ryanb/letter_opener'
 end
 
 group :production do
