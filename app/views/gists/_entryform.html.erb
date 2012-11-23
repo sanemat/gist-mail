@@ -4,7 +4,7 @@
   <dd><%= f.text_field :name %></dt>
   <dt><%= f.label :url %></dt>
   <dd><%= f.text_field :url, {:value => 'https://gist.github.com/'} %></dd>
-  <dt><%= f.label 'point' %></dt>
+  <dt><%= f.label :count, 'Point' %></dt>
   <dd><%= f.number_field :count %></dd>
   <p><%= f.submit 'Gistを追加', :class => 'btn btn-info' %></p>
 </dl>
