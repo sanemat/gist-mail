@@ -3,10 +3,11 @@ class GistsController < ApplicationController
   # GET /gists.json
   def index
     @gists = Gist.all
+    @new_gist = Gist.new
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @gists }
+      format.json { render json: @new_gist }
     end
   end
 
