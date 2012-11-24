@@ -1,5 +1,6 @@
+# coding: utf-8
 class StarMailer < ActionMailer::Base
-  default from: "from@example.com"
+  default from: "Gistar Team <noreply@gist-mail.herokuapp.com>"
 
   def popular(user)
     @gists = Gist.where("created_at >= ?", Time.zone.today.beginning_of_day).order("count DESC").limit(10)
