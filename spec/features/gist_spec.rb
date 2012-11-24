@@ -2,15 +2,14 @@
 require 'spec_helper'
 
 feature "Gist" do
-  let(:gist) { FactoryGirl.build(:gist) }
+  let(:gist) { FactoryGirl.build(:gist, count: nil) }
   scenario "add gist" do
     visit root_path
     # gist が無いこと
 
     # gist投稿
-    fill_in 'Name', with: gist.name
-    fill_in 'Url', with: gist.url
-    fill_in 'Point', with: gist.count
+    fill_in 'gist_name', with: gist.name
+    fill_in 'gist_url', with: gist.url
     click_button 'Gistを追加'
 
     # 投稿完了
@@ -19,6 +18,5 @@ feature "Gist" do
     # 一覧表示
     page.should have_content gist.name
     page.should have_content gist.url
-    page.should have_content gist.count
   end
 end
