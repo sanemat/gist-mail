@@ -42,6 +42,7 @@ class GistsController < ApplicationController
   # POST /gists.json
   def create
     @gist = Gist.new(params[:gist])
+    @gist.count = 1
 
     respond_to do |format|
       if @gist.save
