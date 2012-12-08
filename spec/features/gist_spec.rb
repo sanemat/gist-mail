@@ -2,7 +2,7 @@
 require 'spec_helper'
 
 feature "Gist" do
-  let(:gist) { FactoryGirl.build(:gist, count: nil) }
+  let(:gist) { FactoryGirl.build(:gist) }
   scenario "add gist" do
     visit root_path
     # gist が無いこと
