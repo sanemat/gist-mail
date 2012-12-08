@@ -1,3 +1,4 @@
+# coding: utf-8
 class GistsController < ApplicationController
   # GET /gists
   # GET /gists.json
@@ -49,7 +50,7 @@ class GistsController < ApplicationController
         format.html { redirect_to @gist, notice: 'Gist was successfully created.' }
         format.json { render json: @gist, status: :created, location: @gist }
       else
-        format.html { render action: "new" }
+        format.html { redirect_to gists_url, notice: '未入力の項目があります。' }
         format.json { render json: @gist.errors, status: :unprocessable_entity }
       end
     end
