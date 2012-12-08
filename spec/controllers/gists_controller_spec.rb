@@ -95,11 +95,11 @@ describe GistsController do
         assigns(:gist).should be_a_new(Gist)
       end
 
-      it "re-renders the 'new' template" do
+      it "redirects to the gists_url" do
         # Trigger the behavior that occurs when invalid params are submitted
         Gist.any_instance.stub(:save).and_return(false)
         post :create, {:gist => { "name" => "invalid value" }}, valid_session
-        response.should render_template("new")
+        response.should redirect_to(gists_url)
       end
     end
   end
