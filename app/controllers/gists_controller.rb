@@ -3,7 +3,7 @@ class GistsController < ApplicationController
   # GET /gists
   # GET /gists.json
   def index
-    @gists = Gist.find(:all, :order => "count DESC")
+    @gists = Gist.where("count > 0").order("count DESC")
     @new_gist = Gist.new
 
     respond_to do |format|
