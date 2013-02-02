@@ -10,3 +10,6 @@ notifications:
   email:
     - ogataken@gmail.com
 script: bundle exec rspec -fd
+branches:
+  only:
+    - master
