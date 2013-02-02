@@ -23,7 +23,7 @@ group :development, :test do
   gem 'pry-remote'
   gem 'pry-nav'
   gem 'pry-doc'
-  gem 'debugger' if !ENV['TRAVIS'] && RUBY_VERSION < '2.0'
+  gem 'debugger' if RUBY_VERSION < '2.0'
 end
 
 group :development do
