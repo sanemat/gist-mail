@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '1.9.3' if ENV['HEROKU_POSTGRESQL_AMBER_URL'] # heroku specific
 gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
