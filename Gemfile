@@ -19,14 +19,14 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'heroku-dev-env'
-end
-
-group :development do
   gem 'pry-rails'
   gem 'pry-remote'
   gem 'pry-nav'
   gem 'pry-doc'
-  gem 'debugger'
+  gem 'debugger' if !ENV['TRAVIS'] && RUBY_VERSION < '2.0'
+end
+
+group :development do
   gem 'letter_opener', github: 'ryanb/letter_opener'
 end
 
