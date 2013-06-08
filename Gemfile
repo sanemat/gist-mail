@@ -18,7 +18,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
-  gem 'heroku-dev-env'
+  gem 'heroku-dev-env', github: 'rwz/heroku-dev-env'
   gem 'pry-rails'
   gem 'pry-remote'
   gem 'pry-nav'
