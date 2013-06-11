@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.0.0'
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
@@ -23,7 +23,7 @@ group :development, :test do
   gem 'pry-remote'
   gem 'pry-nav'
   gem 'pry-doc'
-  gem 'debugger' if !ENV['TRAVIS'] && RUBY_VERSION < '2.0'
+  gem 'debugger' if !ENV['TRAVIS']
 end
 
 group :development do
