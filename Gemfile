@@ -24,6 +24,7 @@ group :development, :test do
   gem 'pry-nav'
   gem 'pry-doc'
   gem 'debugger' if !ENV['TRAVIS']
+  gem 'coveralls', require: false
 end
 
 group :development do
