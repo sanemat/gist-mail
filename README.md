@@ -1,6 +1,9 @@
 # gistar
 
-[![Build Status](https://api.travis-ci.org/sanemat/gist-mail.png?branch=master)](https://travis-ci.org/sanemat/gist-mail) [![Code Climate](https://codeclimate.com/github/sanemat/gist-mail.png)](https://codeclimate.com/github/sanemat/gist-mail) [![Coverage Status](https://coveralls.io/repos/sanemat/gist-mail/badge.png?branch=master)](https://coveralls.io/r/sanemat/gist-mail) [![Dependency Status](https://gemnasium.com/sanemat/gist-mail.png)](https://gemnasium.com/sanemat/gist-mail)
+[![Build Status](https://api.travis-ci.org/sanemat/gist-mail.png?branch=master)](https://travis-ci.org/sanemat/gist-mail)
+[![Code Climate](https://codeclimate.com/github/sanemat/gist-mail.png)](https://codeclimate.com/github/sanemat/gist-mail)
+[![Coverage Status](https://coveralls.io/repos/sanemat/gist-mail/badge.png?branch=master)](https://coveralls.io/r/sanemat/gist-mail)
+[![Dependency Status](https://gemnasium.com/sanemat/gist-mail.png)](https://gemnasium.com/sanemat/gist-mail)
 
 ## これは何？
 
