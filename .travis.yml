@@ -1,7 +1,6 @@
 language: ruby
 rvm:
   - 2.0.0
-  - ruby-head
 bundler_args: --without development production
 before_install:
   - gem update bundler
