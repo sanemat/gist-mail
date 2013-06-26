@@ -199,7 +199,7 @@ GEM
       multi_json (~> 1.0, >= 1.0.2)
     warden (1.2.1)
       rack (>= 1.0)
-    webmock (1.11.0)
+    webmock (1.12.1)
       addressable (>= 2.2.7)
       crack (>= 0.3.2)
     xpath (2.0.0)
