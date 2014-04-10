@@ -42,7 +42,7 @@ class GistsController < ApplicationController
   # POST /gists
   # POST /gists.json
   def create
-    @gist = Gist.new(params[:gist])
+    @gist = Gist.new(gist_params)
     @gist.count = 1
 
     respond_to do |format|
@@ -62,7 +62,7 @@ class GistsController < ApplicationController
     @gist = Gist.find(params[:id])
 
     respond_to do |format|
-      if @gist.update_attributes(params[:gist])
+      if @gist.update_attributes(gist_params)
         format.html { redirect_to @gist, notice: 'Gist was successfully updated.' }
         format.json { head :no_content }
       else
@@ -83,4 +83,10 @@ class GistsController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+
+    def gist_params
+      params.require(:gist).permit(:gist)
+    end
 end
