@@ -87,6 +87,6 @@ class GistsController < ApplicationController
   private
 
     def gist_params
-      params.require(:gist).permit(:gist)
+      params.require(:gist).permit(:count, :name, :url)
     end
 end
