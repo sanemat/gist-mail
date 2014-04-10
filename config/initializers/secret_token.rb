@@ -4,4 +4,18 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-GistMail::Application.config.secret_token = '9a4ed0861dc61e239220865cf74e562baf26adbf8eecfbbe95abae8c00f54d6d6a3414f285801b16789a5418637a860dabc8d03e64d2d4862be2010d48a9ac9b'
+require 'securerandom'
+
+def secure_token
+  token_file = Rails.root.join('.secret')
+  if File.exist?(token_file)
+    File.read(token_file).chomp
+  else
+    token = SecureRandom.hex(64)
+    File.write(token_file, token)
+    token
+  end
+end
+
+GistMail::Application.config.secret_token = secure_token
+Devise.secret_key = GistMail::Application.config.secret_token
