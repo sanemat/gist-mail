@@ -1,5 +1,7 @@
 # coding: utf-8
 class GistsController < ApplicationController
+  before_action :find_gist, only: [:show, :edit, :update, :destroy]
+
   # GET /gists
   # GET /gists.json
   def index
@@ -15,8 +17,6 @@ class GistsController < ApplicationController
   # GET /gists/1
   # GET /gists/1.json
   def show
-    @gist = Gist.find(params[:id])
-
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @gist }
@@ -36,7 +36,6 @@ class GistsController < ApplicationController
 
   # GET /gists/1/edit
   def edit
-    @gist = Gist.find(params[:id])
   end
 
   # POST /gists
@@ -59,8 +58,6 @@ class GistsController < ApplicationController
   # PUT /gists/1
   # PUT /gists/1.json
   def update
-    @gist = Gist.find(params[:id])
-
     respond_to do |format|
       if @gist.update_attributes(gist_params)
         format.html { redirect_to @gist, notice: 'Gist was successfully updated.' }
@@ -75,7 +72,6 @@ class GistsController < ApplicationController
   # DELETE /gists/1
   # DELETE /gists/1.json
   def destroy
-    @gist = Gist.find(params[:id])
     @gist.destroy
 
     respond_to do |format|
@@ -85,6 +81,10 @@ class GistsController < ApplicationController
   end
 
   private
+
+    def find_gist
+      @gist = Gist.find(params[:id])
+    end
 
     def gist_params
       params.require(:gist).permit(:count, :name, :url)
