@@ -2,8 +2,8 @@
 
 FactoryGirl.define do
   factory :gist do
-    name "MyString"
-    url "MyString"
+    name  "Lorem ipsum"
+    url   "http://www.example.com/"
     count 1
   end
 end
