@@ -17,6 +17,5 @@ def secure_token
   end
 end
 
-GistMail::Application.config.secret_token = secure_token
 GistMail::Application.config.secret_key_base = secure_token
 Devise.secret_key = GistMail::Application.config.secret_token
