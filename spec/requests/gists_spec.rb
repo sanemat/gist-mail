@@ -1,11 +1,21 @@
 require 'spec_helper'
 
-describe "Gists" do
-  describe "GET /gists" do
-    it "works! (now write some real specs)" do
-      # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
-      get gists_path
-      response.status.should be(200)
+describe "Gist pages" do
+  subject { page }
+
+  describe "index" do
+    before do
+      FactoryGirl.create(:gist, name: "FirstGist")
+      FactoryGirl.create(:gist, name: "SecondGist")
+      visit gists_path
+    end
+
+    it { should have_title('GistMail') }
+
+    it "should list each gist" do
+      Gist.all.each do |gist|
+        expect(page).to have_selector('li', text: gist.name)
+      end
     end
   end
 end

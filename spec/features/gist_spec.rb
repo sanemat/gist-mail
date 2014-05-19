@@ -16,7 +16,6 @@ feature "Gist" do
     click_link 'Back'
 
     # 一覧表示
-    page.should have_content gist.name
-    page.should have_content gist.url
+    page.should have_link(gist.name, href: gist.url)
   end
 end

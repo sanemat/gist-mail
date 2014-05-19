@@ -1,27 +1,16 @@
-<h1>Listing gists</h1>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>Gist</th>
-      <th>Good</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-  <% @gists.each do |gist| %>
-    <tr>
-      <td><%= link_to "#{gist.name}", "#{gist.url}" %></td>
-      <td><%= gist.count %></td>
-      <td>
-        <%= link_to 'Edit', edit_gist_path(gist) if user_signed_in? %>
-      </td>
-    </tr>
-  <% end %>
-  </tbody>
-</table>
+<h1>本日の注目されている Gist</h1>
 
-<br />
-<br />
-<br />
+<ul>
+  <% @gists.each do |gist| %>
+    <li id="<%= gist.id %>">
+      <h2 class="gist-name">
+        <%= link_to gist.name, gist.url%>
+      </h2>
+      <ul>
+        <li class="favorite-count"><%= gist.count %></li>
+      </ul>
+    </li>
+  <% end %>
+</ul>
 
 <%= render 'entryform' %>
